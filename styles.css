@@ -43,6 +43,14 @@ p, h1, h2, h3, h4, h5, h6 {
   margin: 40px auto; 
   padding: 40px;     
   text-align: center;
+  box-shadow:
+    0 0 5px #f7c8d2,  
+    0 0 15px #e99aaa, 
+    0 0 20px #e99aaa;
+}
+
+.header:hover {
+  transform: scale(1.03);
 }
 
 #title{
