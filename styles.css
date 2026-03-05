@@ -475,3 +475,69 @@ p, h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   color: #9e182b;
 }
+
+.editorheader {
+  background-image: url("editorheader.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;      
+  background-position: center;  
+  height: 450px;              
+  width: 75%;      
+  border: 2px solid #e99aaa;
+  border-radius: 20px;
+  margin: 40px auto; 
+  padding: 40px;     
+  text-align: center;
+  box-shadow:
+    0 0 5px #f7c8d2,  
+    0 0 15px #e99aaa, 
+    0 0 20px #e99aaa;
+}
+
+.editorheader:hover {
+  transform: scale(1.03);
+}
+
+.articlesheader {
+  background-image: url("articlesheader.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;      
+  background-position: center;  
+  height: 450px;              
+  width: 75%;      
+  border: 2px solid #e99aaa;
+  border-radius: 20px;
+  margin: 40px auto; 
+  padding: 40px;     
+  text-align: center;
+  box-shadow:
+    0 0 5px #f7c8d2,  
+    0 0 15px #e99aaa, 
+    0 0 20px #e99aaa;
+}
+
+.articlesheader:hover {
+  transform: scale(1.03);
+}
+
+.updatesheader {
+  background-image: url("updatesheader.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;      
+  background-position: center;  
+  height: 450px;              
+  width: 75%;      
+  border: 2px solid #e99aaa;
+  border-radius: 20px;
+  margin: 40px auto; 
+  padding: 40px;     
+  text-align: center;
+  box-shadow:
+    0 0 5px #f7c8d2,  
+    0 0 15px #e99aaa, 
+    0 0 20px #e99aaa;
+}
+
+.updatesheader:hover {
+  transform: scale(1.03);
+}
