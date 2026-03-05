@@ -51,6 +51,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .header:hover {
   transform: scale(1.03);
+  box-shadow:
+    0 0 10px #f7c8d2,
+    0 0 20px #e99aaa,
+    0 0 30px #ffbfd6;
 }
 
 #title{
@@ -206,7 +210,7 @@ p, h1, h2, h3, h4, h5, h6 {
   padding: 20px;
 }
 
-  .editorsection{
+.editorsection{
   background:#fff6f0;
   border:2px solid #f7c8d2;
   border-radius:25px;
@@ -383,97 +387,29 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .articlesheader {
-  width: 75%;
-  font-family: Minecraft Header;
-  margin: 40px auto;
-  padding: 40px;
+  background-image: url("articlesheader.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;      
+  background-position: center;  
+  height: 450px;              
+  width: 75%;      
+  border: 2px solid #e99aaa;
+  border-radius: 20px;
+  margin: 40px auto; 
+  padding: 40px;     
   text-align: center;
-  border: 2px solid #f9cbd6;
-  border-radius: 25px;
-  background-color: rgba(249, 203, 214, 0.35);
-  backdrop-filter: blur(6px);
-  box-shadow: 0px 10px 20px rgba(158, 24, 43, 0.25);
+  box-shadow:
+    0 0 5px #f7c8d2,  
+    0 0 15px #e99aaa, 
+    0 0 20px #e99aaa;
 }
 
-.articlestitle {
-  font-family: Minecraft Header;
-  font-size: 100px;
-  color: #9e182b;
-  margin-bottom: 10px;
-}
-
-.articlessubtitle {
-  font-family: Minecraft Regular;
-  font-size: 22px;
-  color: #b3394a;
-}
-
-.articlescontainer {
-  width: 85%;
-  margin: 40px auto;
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
-
-.articlecard {
-  background-color: #fff8f0;
-  padding: 40px;
-  border-radius: 25px;
-  border: 2px solid #f9cbd6;
-  box-shadow: 0px 10px 20px rgba(158, 24, 43, 0.25);
-}
-
-.articletitle {
-  font-family: Minecraft Regular;
-  font-size: 30px;
-  color: #9e182b;
-  margin-bottom: 15px;
-}
-
-.articleintro {
-  font-family: Georgia, serif;
-  line-height: 1.8;
-  color: #6e0b19;
-  margin-bottom: 20px;
-}
-
-.articleintro::first-letter {
-  font-size: 60px;
-  font-weight: bold;
-  float: left;
-  padding-right: 10px;
-  color: #b3394a;
-  line-height: 1;
-}
-
-.articlebody p {
-  font-family: Georgia, serif;
-  line-height: 1.8;
-  color: #6e0b19;
-  margin-bottom: 10px;
-}
-
-.articlemedia {
-  margin: 25px 0;
-  text-align: center;
-}
-
-.articlemedia img {
-  max-width: 100%;
-  border-radius: 15px;
-  border: 2px solid #f9cbd6;
-}
-
-.articlemedia iframe {
-  max-width: 100%;
-  border-radius: 15px;
-}
-
-.articleconclusion {
-  margin-top: 20px;
-  font-style: italic;
-  color: #9e182b;
+.articlesheader:hover {
+  transform: scale(1.03);
+  box-shadow:
+    0 0 10px #f7c8d2,
+    0 0 20px #e99aaa,
+    0 0 30px #ffbfd6;
 }
 
 .editorheader {
@@ -496,28 +432,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .editorheader:hover {
   transform: scale(1.03);
-}
-
-.articlesheader {
-  background-image: url("articlesheader.jpg");
-  background-repeat: no-repeat; 
-  background-size: cover;      
-  background-position: center;  
-  height: 450px;              
-  width: 75%;      
-  border: 2px solid #e99aaa;
-  border-radius: 20px;
-  margin: 40px auto; 
-  padding: 40px;     
-  text-align: center;
   box-shadow:
-    0 0 5px #f7c8d2,  
-    0 0 15px #e99aaa, 
-    0 0 20px #e99aaa;
-}
-
-.articlesheader:hover {
-  transform: scale(1.03);
+    0 0 10px #f7c8d2,
+    0 0 20px #e99aaa,
+    0 0 30px #ffbfd6;
 }
 
 .updatesheader {
@@ -540,4 +458,8 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .updatesheader:hover {
   transform: scale(1.03);
+  box-shadow:
+    0 0 10px #f7c8d2,
+    0 0 20px #e99aaa,
+    0 0 30px #ffbfd6;
 }
