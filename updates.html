@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hernandez│Updates Page│Campus Chronicles </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
+<body id="home">
+
+  <div class="navbar-container">
+    <nav class="navbar">
+      <a href="home.html" class="nav-link" target="_self">Home</a>
+      <a href="editor.html" class="nav-link" target="_self">Editor's Note</a>
+      <a href="articles.html" class="nav-link" target="_self">Articles</a>
+      <a href="updates.html" class="nav-link" target="_self">Updates</a>
+    </nav>
+  </div>
+<br>
+<br>
+<!-- HEADER (similar style to homepage) -->
+<div class="updates-header">
+
+    <h1 class="updates-title">Updates</h1>
+    <p class="updates-subtitle">Latest resources, related articles, and references about Digital Citizenship</p>
+
+</div>
+
+
+<!-- RELATED ARTICLES -->
+<div class="related-section">
+
+    <h2 class="section-title">Related Articles</h2>
+
+    <div class="related-grid">
+
+        <a href="#" class="related-card">
+            <img src="thumbnail1.jpg" alt="Article thumbnail">
+            <p>Related Article Title</p>
+        </a>
+
+        <a href="#" class="related-card">
+            <img src="thumbnail2.jpg" alt="Article thumbnail">
+            <p>Related Article Title</p>
+        </a>
+
+        <a href="#" class="related-card">
+            <img src="thumbnail3.jpg" alt="Article thumbnail">
+            <p>Related Article Title</p>
+        </a>
+
+    </div>
+
+</div>
+
+
+<!-- REFERENCES -->
+<div class="references-section">
+
+    <h2 class="section-title">References</h2>
+
+    <ul class="references-list">
+        <li>Reference source link here</li>
+        <li>Reference source link here</li>
+        <li>Reference source link here</li>
+        <li>Reference source link here</li>
+    </ul>
+
+</div>
+<div class="contactsection">
+
+    <h2 class="sectiontitle">Contact / Share</h2>
+
+    <p>Email: your@email.com</p>
+    <p>Facebook: link here</p>
+    <p>Instagram: link here</p>
+
+</div>
+<footer class="footer">
+
+    <p>© <span id="year"></span> Digital Citizenship Project. All Rights Reserved.</p>
+
+</footer>
+
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
