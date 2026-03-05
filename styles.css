@@ -26,4 +26,16 @@
   font-style: normal;
 }
 
-
+.header {
+  background-image: url("headervid.mp4");
+  background-repeat: no-repeat; 
+  background-size: cover;      
+  background-position: center;  
+  height: auto;              
+  width: 75%;      
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 40px auto; 
+  padding: 40px;     
+  text-align: center;
+}
