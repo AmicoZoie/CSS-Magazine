@@ -276,19 +276,19 @@ p, h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 10px 20px rgba(158, 24, 43, 0.25);
 }
 
-.updates-title {
+.updatestitle {
   font-family: Minecraft Header;
   font-size: 100px;
   color: #9e182b;
 }
 
-.updates-subtitle {
+.updatessubtitle {
   font-family: Minecraft Regular;
   font-size: 22px;
   color: #b3394a;
 }
 
-.section-title {
+.sectiontitle {
   font-family: Minecraft Regular;
   font-size: 30px;
   color: #9e182b;
@@ -296,19 +296,19 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px;
 }
 
-.related-section {
+.relatedsection {
   width: 80%;
   margin: 50px auto;
 }
 
-.related-grid {
+.relatedgrid {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.related-card {
+.relatedcard {
   width: 220px;
   text-align: center;
   text-decoration: none;
@@ -319,23 +319,23 @@ p, h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease;
 }
 
-.related-card img {
+.relatedcard img {
   width: 100%;
   border-radius: 12px;
   margin-bottom: 10px;
 }
 
-.related-card p {
+.relatedcard p {
   font-family: Minecraft Regular;
   color: #9e182b;
 }
 
-.related-card:hover {
+.relatedcard:hover {
   transform: scale(1.08);
   background-color: #f9cbd6;
 }
 
-.references-section {
+.referencessection {
   width: 70%;
   margin: 50px auto;
   padding: 30px;
@@ -345,13 +345,13 @@ p, h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 10px 20px rgba(158, 24, 43, 0.25);
 }
 
-.references-list {
+.referenceslist {
   font-family: Georgia, serif;
   line-height: 1.8;
   color: #6e0b19;
 }
 
-.contact-section {
+.contactsection {
   width: 70%;
   margin: 50px auto;
   padding: 30px;
@@ -371,7 +371,7 @@ p, h1, h2, h3, h4, h5, h6 {
   color: #9e182b;
 }
 
-.articles-header {
+.articlesheader {
   width: 75%;
   font-family: Minecraft Header;
   margin: 40px auto;
@@ -384,20 +384,20 @@ p, h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 10px 20px rgba(158, 24, 43, 0.25);
 }
 
-.articles-title {
+.articlestitle {
   font-family: Minecraft Header;
   font-size: 100px;
   color: #9e182b;
   margin-bottom: 10px;
 }
 
-.articles-subtitle {
+.articlessubtitle {
   font-family: Minecraft Regular;
   font-size: 22px;
   color: #b3394a;
 }
 
-.articles-container {
+.articlescontainer {
   width: 85%;
   margin: 40px auto;
   display: flex;
@@ -405,7 +405,7 @@ p, h1, h2, h3, h4, h5, h6 {
   gap: 50px;
 }
 
-.article-card {
+.articlecard {
   background-color: #fff8f0;
   padding: 40px;
   border-radius: 25px;
@@ -413,21 +413,21 @@ p, h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 10px 20px rgba(158, 24, 43, 0.25);
 }
 
-.article-title {
+.articletitle {
   font-family: Minecraft Regular;
   font-size: 30px;
   color: #9e182b;
   margin-bottom: 15px;
 }
 
-.article-intro {
+.articleintro {
   font-family: Georgia, serif;
   line-height: 1.8;
   color: #6e0b19;
   margin-bottom: 20px;
 }
 
-.article-intro::first-letter {
+.articleintro::first-letter {
   font-size: 60px;
   font-weight: bold;
   float: left;
@@ -436,30 +436,30 @@ p, h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
 
-.article-body p {
+.articlebody p {
   font-family: Georgia, serif;
   line-height: 1.8;
   color: #6e0b19;
   margin-bottom: 10px;
 }
 
-.article-media {
+.articlemedia {
   margin: 25px 0;
   text-align: center;
 }
 
-.article-media img {
+.articlemedia img {
   max-width: 100%;
   border-radius: 15px;
   border: 2px solid #f9cbd6;
 }
 
-.article-media iframe {
+.articlemedia iframe {
   max-width: 100%;
   border-radius: 15px;
 }
 
-.article-conclusion {
+.articleconclusion {
   margin-top: 20px;
   font-style: italic;
   color: #9e182b;
