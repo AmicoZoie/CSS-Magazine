@@ -593,3 +593,20 @@ p, h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   color: #9e182b;
 }
+
+.socialicons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.socialicons img {
+    height: 40px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.socialicons img:hover {
+    transform: scale(1.2);
+}
