@@ -523,13 +523,14 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .articleintro {
-  font-family: Georgia, serif;
+  font-family: "Minecraft Regular";
   line-height: 1.8;
   color: #6e0b19;
   margin-bottom: 20px;
 }
 
 .articleintro::first-letter {
+  font-family: "Minecraft Regular";
   font-size: 60px;
   font-weight: bold;
   float: left;
@@ -550,13 +551,14 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .articlebody {
-  font-family: Georgia, serif;
+ font-family: "Minecraft Regular";
   line-height: 1.8;
   color: #6e0b19;
   margin-bottom: 10px;
 }
 
 .articleconclusion {
+  font-family: "Minecraft Regular";
   margin-top: 20px;
   font-style: italic;
   color: #9e182b;
