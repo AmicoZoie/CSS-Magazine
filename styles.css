@@ -225,14 +225,14 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .sectiontitle{
-  font-family:Minecraft Regular;
+  font-family: Minecraft Regular;
   color:#8f1a2f;
   font-size:32px;
   text-align:center;
 }
 
 .editornote p{
-  font-family:Georgia, serif;
+  font-family: Minecraft regular;
   color:#8f1a2f;
   line-height:1.8;
 }
@@ -244,7 +244,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .authorinsight p{
-  font-family:Georgia, serif;
+  font-family: Minecraft Regular;
   color:#7a1527;
   line-height:1.8;
 }
@@ -258,6 +258,7 @@ p, h1, h2, h3, h4, h5, h6 {
   padding:20px;
   border-radius:20px;
   width: 75%;
+  align: center;
 }
 
 .profilepic{
@@ -275,7 +276,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .profiletext p{
-  font-family:Georgia, serif;
+  font-family: Minecraft Regular;
   color:#7a1527;
   margin-top:5px;
 }
