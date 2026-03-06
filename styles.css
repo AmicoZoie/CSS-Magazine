@@ -511,12 +511,15 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .articlecontent {
-  display: none;
-  margin-top: 20px;
+  max-height: 0;
+  overflow: hidden;
+  margin-top: 0;
+  transition: max-height 0.6s ease, margin-top 0.4s ease;
 }
 
-.articlecard.active .articlecontent {
-  display: block;
+.articlecard:focus-within .articlecontent {
+  max-height: 2000px;
+  margin-top: 20px;
 }
 
 .articleintro {
